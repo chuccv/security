@@ -23,7 +23,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="chuccv.xss" template="Chuccv_Security::xss.phtml"/>
+            <block class="Chuccv\Security\Block\Xss\Index" name="chuccv.xss" template="Chuccv_Security::xss.phtml"/>
         </referenceContainer>
     </body>
 </page>
